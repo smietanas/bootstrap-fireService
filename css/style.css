@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: -1;
+}
+
+/* nawigacja */
+nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* header */
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url('../img/cr1lq.jpg');
+}
+
+.carousel-img-two {
+  background-image: url('../img/cr2lq.jpg');
+}
+
+.carousel-img-three {
+  background-image: url('../img/cr3lq.jpg');
+}
+
+@media (min-width:1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-img-one {
+    background-image: url('../img/cr1hq.jpg');
+  }
+
+  .carousel-img-two {
+    background-image: url('../img/cr2hq.jpg');
+  }
+
+  .carousel-img-three {
+    background-image: url('../img/cr3hq.jpg');
+  }
+}
+
+/* -------------- */
+/*      home      */
+/* -------------- */
+.home-boxes {
+  padding: 5em 0;
+}
+
+.home-box i {
+  font-size: 4rem;
+}
+
+.home-box h3 {
+  font-size: 2.6rem;
+}
+
+/* -------------- */
+
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url('../img/yellowcar.jpg');
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 1.6rem;
+}
+
+/* shared */
+.aditional-text {
+  font-size: 1.8rem;
+}
+
+.top-hero {
+  position: relative;
+  height: 20rem;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+
+/* about us */
+.aboutus-info {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+  padding: 2em .5em;
+}
+
+.aboutus-text {
+  padding: 1.8em;
+}
+
+.aboutus-text h3 {
+  margin-bottom: .5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline #007BFF;
+}
+
+.aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-img {
+  height: 300px;
+  background-image: url('../img/about/road.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutus-hero {
+  background-image: url('../img/about/road.jpg');
+  background-position: bottom;
+}
+
+.aboutus-top .display-3 {
+  text-transform: uppercase;
+}
+
+
+
+/* services */
+
+.services-hero {
+  background-image: url('../img/services/bluecar.jpg');
+  background-position: 0 75%;
+}
+
+.service-hero-box {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  z-index: 0;
+}
+
+.service-hero-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+  background-image: url('../img/services/sr1.jpg');
+
+}
+
+.service-pricing .box-two {
+  background-image: url('../img/services/sr2.jpg');
+
+}
+
+.service-pricing .box-three {
+  background-image: url('../img/services/sr3.jpg');
+}
+
+.service-pricing .box-four {
+  background-image: url('../img/services/sr4.jpg');
+}
+
+.service-pricing .card-header {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.service-pricing h3 {
+  font-weight: bold;
+}
+
+.service-pricing .btn {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+/* project */
+
+.project-hero {
+  background-image: url('../img/projects/project-hero.jpg');
+  background-position: center
+}
+
+.projects-content img {
+  object-fit: cover;
+  height: 240px;
+}
+
+
+.projects-content .btn {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+
+/* contact */
+.contact-hero {
+  background-image: url('../img/contact/shelby-3821715_1920.jpg');
+  background-position: center;
+}
+
+
+.contact-side h2,
+.contact-side h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-side h2 {
+  font-size: 2.6rem;
+}
+
+.contact-logo {
+  font-size: 3rem;
+}
+
+.contact-side input,
+.contact-side select,
+.contact-side textarea {
+  font-size: 1.6rem;
+}
+
+.contact-side .btn {
+  padding: 0.3em .8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+
+
+/* passion */
+
+@media (min-width:992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+
+  .aboutus-shadow {
+    box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+  }
+
+  .aboutus-text {
+    padding: 5em 0;
+    transform: skew(-15deg);
+  }
+
+  .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+
+  .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+
+  .aboutus-img {
+    height: auto;
+    transform: skew(-15deg);
+  }
+
+}
+
+/* ------harmonijka---------- */
+.box-fryz {
+  position: relative;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-image: url('../img/oko-harmonijka.png');
+}
+
+.text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-text {
+  padding: 15px 60px;
+  font-size: 1.8rem;
+}
+
+.sur-time {
+  padding: 30px 0;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.text-container img {
+  height: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #124644;
+}
+
+.text-container img:hover {
+  animation: pulse 2s infinite;
+}
+
+.call-button {
+  background-color: #124644;
+  color: beige;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+
+    box-shadow: 0 0 0 0 rgba(206, 213, 219, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(238, 231, 231, 0);
+  }
+
+  100% {
+
+    box-shadow: 0 0 0 0 rgba(199, 191, 191, 0);
+  }
+}
+
+/* ---------karuzela----------- */
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.one {
+  background-image: url('../img/oko-header.png');
+}
+
+.two {
+  background-image: url('../img/header-img2.jpg');
+}
+
+.three {
+  background-image: url('../img/header-img3.jpg');
+}
+
+.description {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+
+
+.description-title {
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+
+}
+
+.description-list {
+  font-size: 1.6rem;
+  /* list-style: none; */
+  padding-left: 15px;
+}
+
+.description-list-item {
+  padding-bottom: 5px;
+}
+
+.promo-description {
+  padding: -15px 30px;
+}
+
+.read-more-button {
+  color: #124644;
+  background-color: white;
+  padding: 10px 35px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.facebook-button {
+  font-size: 7rem;
+  color: #007BFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.facebook-button:hover {
+  animation: pulse 2s infinite;
+}
+
+
+@media (max-width: 768px) {
+  .description {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .desc-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fire Serwis</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/751193eb63.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-fire-alt text-danger"></i> Fi<span class="text-danger">re</span>
+        Serwis</a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars px-4"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link " href="index.html">Home</a>
+          <a class="nav-link active" href="#">O Firmie</a>
+          <a class="nav-link" href="services.html">Usługi</a>
+          <a class="nav-link" href="projects.html">Projekty</a>
+          <a class="nav-link" href="contact.html">Kontakt</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <main>
+    <section class="top-hero aboutus-hero">
+      <div class="hero-shadow"></div>
+      <p class="top-hero-text text-light">O Firmie</p>
+    </section>
+
+    <section class="aboutus-top p-5">
+      <div class="row">
+        <div class="container py-5">
+          <p class="display-3">
+            <i class="fas fa-fire-alt text-danger"></i> Fi<span class="text-danger">re</span> Serwis
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo cum quas iure magnam laudantium
+            repudiandae iusto deleniti minima facere iusto deleniti minima facere..</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo cum quas iure magnam laudantium
+            repudiandae iusto deleniti minima facere iusto deleniti minima facere..</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="border-top border-bottom aboutus-info aboutus-shadow">
+      <div class="container">
+        <div class="row m-0 justify-content-center">
+          <div class="col-lg-3 aboutus-text aboutus-text-left">
+            <h3>our passion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, similique dicta vitae velit
+              minima delectus impedit aspernatur eaque natus quae adipisci corrupti quas rerum molestias
+              perferendis maxime optio sapiente eligendi.</p>
+          </div>
+
+          <div class=" aboutus-img col-lg-4"></div>
+
+          <div class="col-lg-3 aboutus-text aboutus-text-right">
+            <h3>our goals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, similique dicta vitae velit
+              minima delectus impedit aspernatur eaque natus quae adipisci corrupti quas rerum molestias
+              perferendis maxime optio sapiente eligendi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light">
+    <p class="py-5 px-3 mb-0 text-center">2020 &copy; Copyright <i
+        class="ml-3 fas fa-fire-alt text-primary text-danger"></i> Fire
+      Serwis
+    </p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).click(function (event) {
+      var clickover = $(event.target);
+      var _opened = $(".navbar-collapse").hasClass("show");
+      if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+        $(".navbar-toggler").click();
+      }
+    });
+  </script>
+</body>
+
+</html>
